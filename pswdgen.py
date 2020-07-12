@@ -10,6 +10,8 @@ length = 32
 def genpass():
     password = "".join(random.sample(pwd, length))
     label.config(text = password)
+    window.clipboard_clear()
+    window.clipboard_append(password)
 
 
 window = tk.Tk()
