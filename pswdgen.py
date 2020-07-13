@@ -2,7 +2,7 @@ import random
 import tkinter as tk
 
 
-pwd = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789[]}{()*:/,._-"
+pwd = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789[]}@$#{()*:/,._-"
 
 length = 32
 
